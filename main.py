@@ -39,5 +39,5 @@ def send_state():
 
     return str(value[1]) if value else "UNKNOWN"
 
-if __name__ == '__main__':
-    app.run(host="0.0.0.0", debug=True)
+# if __name__ == '__main__':
+#     app.run(host="0.0.0.0", debug=True)
